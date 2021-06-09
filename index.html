@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Game</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body class="bodybg">
     <div id="app">
         <h1>{{ text }}</h1>   
     </div>
+   
     <main>
+        <div>
+             <input type ="text" placeholder="Enter your name" id="charNickname" name="charNickname">
+             <button class='btn-check' id='buttonCheck'value="Check"><span>Check</span></button>
+ 
+    </div>
         <div>
             <img src="images/333.png" alt = "character image" id ="charimg">
         </div>
         <div>
-            <button class= 'button' id = 'charM'><span>Male</span></button><span>
+            <button class= 'button' id = 'charM'><span>Male</span></button>
             <button class= 'button' id ='charF'><span>Female</span></button>
         </div>
     </main>    

@@ -29,11 +29,41 @@
 	transform: translate3d(-4px, -4px, 0);
 
 }
+#charNickname {
+    background-color:#3a3939;
+    color:blanchedalmond;
+    padding-left: 3.2rem ;
+    border:2px solid black;
+    transform: translate3d(1px, 1px, 0);
+  
+}
+.btn-check {
+    background: #000;
+	font-weight: 350;
+	color: blanchedalmond;
+    padding: 0;
+	border-radius: 1px;
+}
+
+.btn-check span {
+	display: block;
+	background: #3a3939;
+	padding: 0.5rem 0.5rem;
+	border: 0.1px solid #000;
+	transform: translate3d(-2px, -2px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.btn-check:hover span {
+	transform: translate3d(-4px, -4px, 0);
+}
+
 
 h1 {
     color:floralwhite;
     font-family:'Rajdhani', sans-serif;;
 }
+
 
 
 .bodybg {
