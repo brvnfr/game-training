@@ -26,11 +26,16 @@
 
 }
 
-body{
-    background-image: url(/images/4T_Eqv.png);
-    background-color: rgba(65, 62, 62, 0.808);
-}
 h1 {
     color:floralwhite;
     font-family:'Rajdhani', sans-serif;;
+}
+
+
+.bodybg {
+    background: url(images/cybercity-neon.gif);
+    background-color: rgba(65, 62, 62, 0.808);
+   
+    background-size: 100%;
+    
 }
