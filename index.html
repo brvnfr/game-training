@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Pick Your Character</h1>
-    </header>
+    <div id="app">
+        <h1>{{ text }}</h1>   
+    </div>
     <main>
         <div>
             <img src="images/333.png" alt = "character image" id ="charimg">
@@ -20,6 +20,23 @@
             <button class= 'button' id ='charF'><span>Female</span></button>
         </div>
     </main>    
+   
+    <
+      </div>
+      
     <script src ='./scripts.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        const app = new Vue ({
+            el: '#app',
+            data: {
+                // dados do componente
+                text: 'Pick Your Character'
+                main: 
+            }
+        });
+   
+   </script>
+
 </body>
 </html>
