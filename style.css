@@ -1,0 +1,25 @@
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.button {
+	background: #000;
+	font-weight: 700;
+	color: blanchedalmond;
+    padding: 0;
+	border-radius: 5px;
+}
+
+.button span {
+	display: block;
+	background: #3a3939;
+	padding: 1.5rem 2.3rem;
+	border: 1px solid #000;
+	transform: translate3d(-2px, -2px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.button:hover span {
+	transform: translate3d(-4px, -4px, 0);
