@@ -11,7 +11,7 @@
 .button {
 	background: #000;
 	font-weight: 700;
-	color: blanchedalmond;
+	color: rgb(158, 144, 123);
     padding: 0;
 	border-radius: 5px;
 }
@@ -19,7 +19,7 @@
 .button span {
 	display: block;
 	background: #3a3939;
-	padding: 1.5rem 2.3rem;
+	padding: 1.0rem 2.1rem;
 	border: 1px solid #000;
 	transform: translate3d(-2px, -2px, 0);
 	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
@@ -29,35 +29,35 @@
 	transform: translate3d(-4px, -4px, 0);
 
 }
-#charNickname {
-    background-color:#3a3939;
-    color:blanchedalmond;
-    padding-left: 3.2rem ;
-    border:2px solid black;
-    transform: translate3d(1px, 1px, 0);
-  
+.btn2 {
+    color: #000000;
+    border-color: #000;
 }
-.btn-check {
-    background: #000;
-	font-weight: 350;
-	color: blanchedalmond;
-    padding: 0;
-	border-radius: 1px;
+.btn-outline-secondary2 {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #3a3939;
+    border: 1px solid #000;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;  
+
 }
 
-.btn-check span {
-	display: block;
-	background: #3a3939;
-	padding: 0.5rem 0.5rem;
-	border: 0.1px solid #000;
-	transform: translate3d(-2px, -2px, 0);
+.btn-outline-secondary2:hover span {
+
+    transform: translate3d(-2px, -2px, 0);
 	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
-
-.btn-check:hover span {
-	transform: translate3d(-4px, -4px, 0);
-}
-
 
 h1 {
     color:floralwhite;
