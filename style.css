@@ -1,7 +1,11 @@
+#app {
+    padding-top: 20px;
+}
 #app,main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem
     
 }
 .button {
